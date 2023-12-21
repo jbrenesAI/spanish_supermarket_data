@@ -1,0 +1,7 @@
+supermarkets:
+  - name: Mercadona
+    base_url: https://tienda.mercadona.es/api
+    available_segments:
+      - categories:
+          name: https://tienda.mercadona.es/api/categories
+          method: GET
